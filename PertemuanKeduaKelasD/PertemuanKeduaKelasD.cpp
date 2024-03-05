@@ -14,9 +14,10 @@ int main()
 			bilangan = 2 * bilangan;
 		}
 
-		if (bilangan < 5) {
+		else {
 			bilangan = 4 * bilangan;
 		}
+
 		cout << "Bilangan akhir = " << bilangan << endl;
 		return 0;
 
